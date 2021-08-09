@@ -1,0 +1,5 @@
+python-ffmpeg
+pandas
+tqdm
+scikit-learn
+torch
