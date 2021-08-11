@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --account=def-mudl
-#SBATCH --gres=gpu:p100:1 
+#SBATCH --gres=gpu:v100l:1 
 #SBATCH --cpus-per-task=6         # CPU cores/threads
 #SBATCH --mem=100G                # memory (per node)
-#SBATCH --time=0-02:00            # time (DD-HH:MM)
+#SBATCH --time=0-00:20            # time (DD-HH:MM)
 
 module load python/3.6
 source env_h100m/bin/activate
