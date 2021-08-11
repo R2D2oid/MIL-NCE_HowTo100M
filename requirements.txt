@@ -1,4 +1,4 @@
-python-ffmpeg
+ffmpeg-python
 pandas
 tqdm
 scikit-learn
